@@ -1,0 +1,255 @@
+body,html{
+    width: 100%;
+}
+.max-width{
+    width: 100%;
+    margin: 0 auto;
+}
+.main-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*头部*/
+.header{
+    width: 100%;
+    background: #f9f9f9;
+}
+.header-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-top{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+.header-top .left{
+    float: left;
+    margin-left: 10px;
+}
+.welcome{
+    color: #a7a7a7;
+}
+.index{
+    margin-left: 25px;
+}
+.right{
+    float: right;
+    right: 0;
+    bottom: 0;
+    color: #989898;
+}
+.header-main{
+    height: 110px;
+}
+.main{
+    font-size: 16px;
+}
+.main img{
+    float: left;
+}
+.main .logo{
+    margin-top: 25px;
+}
+.main .biaoyu{
+    margin: 17px 0 0 23px;
+}
+.search{
+    width: 500px;
+    height: 40px;
+    padding: 35px 0 0 35px;
+    float: left;
+}
+.search input{
+    width: 420px;
+    height: 40px;
+    border: 2px #015db5 solid;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    background:#025db6;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+.huo{
+    float: left;
+    margin:35px 18px 0 18px;
+    padding-top: 10px;
+}
+.btn-zi{
+    float: left;
+    width: 150px;
+    height: 40px;
+    background: #025db6;
+    color: white;
+    font-size: 14px;
+    margin-top: 35px;
+    padding: 10px 0 0 12px;
+}
+.btn-zi span{
+    margin-left: 12px;
+}
+
+
+
+/*导航栏*/
+.nav{
+    height: 40px;
+    background: #0066cb;
+}
+.nav-content{
+    color: white;
+    font-size: 14px;
+
+}
+.nav-content li{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+.nav-content li.little{
+    position: relative;
+}
+
+.nav-content li.active{
+    background: #0051a2;
+}
+
+.next-menu{
+    display: none;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 40px;
+    left: -25px;
+    z-index: 2;
+    background: rgba(52,52,60,.7);
+    text-align: center;
+}
+.nav-content li.little:hover .next-menu{
+    display: block;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+.menu li{
+    width: 100%;
+    height: 40px;
+}
+
+/*底部*/
+.footer{
+    color: white;
+    height: 320px;
+    background: #333333;
+}
+.footer .footer-content{
+    margin: 0 auto;
+    height: 100%;
+}
+.footer .footer-content .top{
+    margin: 0 auto;
+    height: 200px;
+}
+.footer .content-box{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin: 30px 20px 10px 20px;
+    text-align: center;
+}
+.footer .content-box span{
+    display: block;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.footer .content-box span:first-child{
+    font-size: 16px;
+    padding-top: 18px;
+}
+.footer .footer-content .bottom{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+}
+.footer .footer-content .bottom ul{
+    width: 390px;
+    height: 36px;
+    margin: 10px auto;
+    line-height: 36px;
+}
+.footer .footer-content .bottom ul li{
+    float: left;
+    font-size: 12px;
+    text-align: center;
+}
+/*悬浮窗*/
+.suspension{
+    position: fixed;
+    right: -100px;
+    bottom: 150px;
+    z-index: 999;
+    display: none;
+}
+.suspension .block{
+    position: absolute;
+    right: 0;
+    width: 160px;
+    height: 60px;
+    background: #b6e2ff;
+    text-align: center;
+    display: block;
+
+}
+.block4{
+    bottom: 0;
+}
+.block3{
+    bottom: 60px;
+}
+.block2{
+    bottom: 120px;
+}
+.block1{
+    bottom: 180px;
+}
+.suspension .block img{
+    padding-top: 20px;
+}
+.suspension .block .img-box{
+    width: 60px;
+    height: 100%;
+    float: left;
+    left: 20px;
+}
+.suspension .block .img-box .img{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+}
+.suspension .block:last-child .img-box .img{
+    border: none;
+}
+.suspension .block .text{
+    line-height: 60px;
+    color: #083a6f;
+    font-size: 12px;
+    text-align: center;
+}
+.suspension .block:hover{
+    transform: translate(-100px,0);
+
+}
+.suspension .block:hover .img-box .img{
+    border: none;
+}
